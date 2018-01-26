@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+  <head>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.5.11/p5.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.5.11/addons/p5.dom.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.5.11/addons/p5.sound.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="./libraries/p5.speech.js"></script>
+
+
+    <script language="javascript" type="text/javascript" src="path/to/p5.dom.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/4.6.2/firebase.js"></script>
+    <script src="sketch.js"></script>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  </head>
+  <body>
+    <section class="page" id="page-1">
+    <!-- <button type="button" id="Archive" onclick="goToPage2()">Dreams Archive</button> -->
+    <h1><a type='button' id='Archive' onclick="goToPage2()"> Dreams Archive </a></h1>
+    <p>  </p>
+    <a id="recordButton" href="#">
+      <img id="dreamRecorderImage"   src="dreamRecorder.png" alt="">
+    </a>
+    <p><textarea id="userDreamInput">write here</textarea></p>
+     <button id="sendDream"> send </button>
+    <time id= "dateOfDream">   </time>
+   </section>
+
+   <section class="page" id="page-2">
+    <h1> Dreams Archive </h1>
+    <ul id="listOfDreams">
+    </ul>
+    <ul id="listOfFilteredDreams">
+    </ul>
+    <p><textarea type="text" value="" id="toSearchInput"> word </textarea></p>
+    <button id="sendSearch"> search </button>
+    </section>
+
+
+    <section class="page" id="page-3">
+      <h1 id="dream-title"></h1>
+      <div>
+      <p id="dream-content"></p>
+    </div>
+      <h3 id="author-name"></h3>
+      <p id="editText">edit</p>
+    </section>
+
+  </body>
+</html>

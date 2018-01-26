@@ -1,0 +1,134 @@
+html, body {
+  margin: 2%;
+  padding: 12;
+  font-size: 1.4em;
+  font-family: "avenir", sans-serif;
+  text-align: center;
+  background-color: white;
+
+}
+
+h1 {
+  font-size: 2em;
+}
+
+button#Archive {
+  font-size: 2em;
+  background-color: white;
+  border-radius: opx;
+  border-style: dashed;
+  border: 0px;
+  margin-left: 33%;
+
+}
+.page {
+ display: none;
+}
+
+#page-1 {
+display: block;
+}
+
+p #userDreamInput {
+  border-radius: 7px;
+  background-color: #89d5e5;
+  width: 750px;
+  height: 500px;
+  border: 1px solid black;
+  text-align: center;
+  font-size: 0.5em;
+  letter-spacing: 2px;
+  line-height: 1.6;
+}
+
+p #dream-content {
+  font-size: 1.7em;
+  letter-spacing: 2px;
+  line-height: 1.6;
+  position: absolute;
+  top: 24%;
+}
+
+
+p #editText {
+font-size: 7px;
+
+
+}
+
+
+textarea #userDreamInput {
+    height: 90%;
+}
+
+
+img#dreamRecorderImage {
+
+    width: 35px;
+    position: absolute;
+    top: 24%;
+    right: 10%;
+
+}
+
+button#sendDream  {
+  background-color: white;
+  border-radius: 3px;
+  border-style: dashed;
+  border: 1px;
+
+  margin-left: 1%;
+
+}
+
+ul {
+  list-style: none;
+  font-size: 0.8em;
+  list-style-position: inherit;
+  text-align: left;
+}
+
+
+p #toSearchInput {
+  position: absolute;
+  top: 24%;
+  left: 75%;
+  border-radius: 7px;
+  background-color: white;
+  width: 8%;
+  height: 40px;
+  border: 1px solid black;
+  text-align: center;
+  font-size: 0.5em;
+  letter-spacing: 2px;
+  line-height: 1.6;
+}
+
+.output {
+  float: right;
+  top: 15%;
+  left: 75%;
+  border-radius: 7px;
+  background-color: white;
+  width: 20%;
+  height: 60px;
+  border: 1px solid black;
+  text-align: center;
+  font-size: 0.5em;
+  letter-spacing: 2px;
+  line-height: 1.6;
+
+
+}
+
+
+button#sendSearch {
+  position: absolute;
+  top: 30%;
+  left: 77%;
+  background-color: #89d5e5;
+  border-radius: 3px;
+  border-style: dashed;
+  border: 1px;
+  margin-left: 1%;
+}
