@@ -1,4 +1,136 @@
 html, body {
+}
+
+body {
+  /* display: -ms-flexbox;
+  display: -webkit-box;
+  display: flex;
+  -ms-flex-align: center;
+  -ms-flex-pack: center;
+  -webkit-box-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  justify-content: center; */
+  padding-top: 54px;
+  background-color:#10254c;
+  /* overflow: auto; */
+}
+
+@media (min-width: 992px) {
+  body {
+    padding-top: 56px;
+  }
+}
+
+.colum-sizing {
+  margin-top: 20px;
+  margin-bottom: 10px;
+}
+
+a {
+  color:#8ad8d7;
+}
+
+.custom-card {
+  background: #10254c;
+  border : solid 1px #afafaf;
+}
+
+.pagination {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+
+.titleFont {
+  font-family: 'Josefin Sans', sans-serif;
+}
+
+.bodyFont {
+  font-family: 'Lato', sans-serif;
+  font-weight: 300;
+}
+
+.form-signin {
+  width: 100%;
+  max-width: 300px;
+  padding: 15px;
+  margin: 0 auto;
+}
+
+.form-signin .checkbox {
+  /* font-weight: 400; */
+}
+
+.form-signin .form-control {
+  background-color:#10254c;
+  font-family: 'Lato', sans-serif;
+  position: relative;
+  /* box-sizing: border-box; */
+  height: auto;
+  padding: 10px;
+  font-size: 0.75em;
+}
+
+.form-signin .form-control:focus {
+  z-index: 2;
+}
+
+.form-signin input[type="email"] {
+  margin-bottom: -1px;
+  border-bottom-right-radius: 0;
+  border-bottom-left-radius: 0;
+}
+
+.form-signin input[type="password"] {
+  margin-bottom: 10px;
+  border-top-left-radius: 0;
+  border-top-right-radius: 0;
+}
+
+#record_title{
+  padding-left: 10px;
+  border-bottom : solid 5px #8ad8d7;
+  border-left:none;
+  border-right:none;
+  border-top:none;
+  background: #10254c;
+  color : #fff;
+}
+
+#record_body {
+  padding-left: 10px;
+  padding-top: 10px;
+  background: #10254c;
+  border : solid 0.5px #8ad8d7;
+  color : #fff;
+}
+
+#record_tag {
+  padding-left: 10px;
+  background: #10254c;
+  border : solid 0.5px #8ad8d7;
+  color : #fff;
+}
+
+#read_title{
+  color : #8ad8d7;
+}
+
+#read_date{
+  color : #8ad8d7;
+}
+
+#read_body {
+  color : #fff;
+  border : none;
+}
+
+#read_tag {
+  color : #8ad8d7;
+  /* background-color: #fff */
+}
+/* html, body {
   margin: 2%;
   padding: 12;
   font-size: 1.4em;
@@ -131,4 +263,4 @@ button#sendSearch {
   border-style: dashed;
   border: 1px;
   margin-left: 1%;
-}
+} */
